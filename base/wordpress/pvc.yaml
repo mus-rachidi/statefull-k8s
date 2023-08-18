@@ -1,10 +1,11 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: wp-pv-claim
+  name: wp-pvc
   labels:
     app: wordpress
 spec:
+  storageClassName: pv-wordpress
   accessModes:
     - ReadWriteOnce
   resources:
