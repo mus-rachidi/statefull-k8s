@@ -3,11 +3,11 @@ secretGenerator:
   literals:
   - password=password_mysql
 resources:
-  - /home/smarteez/Desktop/wordpress-minikube/base/wordpress/deployment.yaml
-  - /home/smarteez/Desktop/wordpress-minikube/base/wordpress/service.yaml
-  - /home/smarteez/Desktop/wordpress-minikube/base/wordpress/pvc.yaml
-  - /home/smarteez/Desktop/wordpress-minikube/base/mysql/deployment.yaml
-  - /home/smarteez/Desktop/wordpress-minikube/base/mysql/service.yaml
-  - /home/smarteez/Desktop/wordpress-minikube/base/mysql/pvc.yaml
-  - /home/smarteez/Desktop/wordpress-minikube/base/pv-minikube/pv-mysql.yaml
-  - /home/smarteez/Desktop/wordpress-minikube/base/pv-minikube/pv-wordpress.yaml
+  - /home/smarteez/Desktop/wordpress-mini/base/wordpress/deployment.yaml
+  - /home/smarteez/Desktop/wordpress-mini/base/wordpress/service.yaml
+  - /home/smarteez/Desktop/wordpress-mini/base/wordpress/pvc.yaml
+  - /home/smarteez/Desktop/wordpress-mini/base/mysql/deployment.yaml
+  - /home/smarteez/Desktop/wordpress-mini/base/mysql/service.yaml
+  - /home/smarteez/Desktop/wordpress-mini/base/mysql/pvc.yaml
+  - /home/smarteez/Desktop/wordpress-mini/base/pv-minikube/pv-mysql.yaml
+  - /home/smarteez/Desktop/wordpress-mini/base/pv-minikube/pv-wordpress.yaml
